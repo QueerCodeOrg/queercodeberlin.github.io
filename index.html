@@ -1,80 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
+<div class="home">
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Queer Code Berlin by QueerCodeBerlin</title>
-  </head>
+  <h1 class="page-heading">Posts</h1>
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/QueerCodeBerlin">View on GitHub</a>
-    <div class="shell">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Queer Code Berlin</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a id="queer-code-berlin" class="anchor" href="#queer-code-berlin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Queer Code Berlin</h3>
-
-<p>The group' s main goals is to connect and support queer people (of all flavors) working in jobs related to software development. This group is not meant for allies.</p>
-
-<p>We protect our members privacy at all costs. Feel free to join us with a separate anonymous account. We will come up with a plan to make it possible that people can meet without fear of being identified by others.</p>
-
-<p>Different types of events are planned right now:</p>
-
-<ul>
-<li>individual support, guidance, mentoring</li>
-<li>meetings to find peers in other companies</li>
-<li>workshops to advance professionally </li>
-</ul>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/QueerCodeBerlin">QueerCodeBerlin</a> can be found on <a href="https://github.com/QueerCodeBerlin">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
-    
-  </body>
-</html>
+</div>
