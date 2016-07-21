@@ -3,7 +3,9 @@ title: Queer Code Berlin
 layout: default
 ---
 
-### Queer Code Berlin
+### Queer Code
+
+![Logo]({{ site.url }}/img/logo.png)
 
 The group' s main goals is to connect and support queer people (of all flavors) working in jobs related to software development. This group is not meant for allies.
 
