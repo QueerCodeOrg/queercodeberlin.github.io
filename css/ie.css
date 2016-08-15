@@ -1,0 +1,19 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------------ CONTENTS ------------------------------*/
+#contents #sidebar {
+	*margin-bottom: 6px;
+}
+#contents > .footer {
+	*height: 1%;
+}
+#contents  > .footer .section {
+	*float: left;
+	*margin: 0 10px;
+}
+
+#contents > #program {
+	*min-height: auto;
+}
+#contents > #programs {
+	*height: auto;
+}
