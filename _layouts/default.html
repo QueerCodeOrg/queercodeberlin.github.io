@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--[if IE]>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" charset="utf-8">
+    <![endif]-->
+    <script src="https://use.fontawesome.com/f6bb52323c.js"></script>
+</head>
+<body>
+<div id="background">
+    <div id="page">
+        {% include header.html %}
+
+
+        <div id="contents">
+            {{ content }}
+        </div>
+        {% include footer.html %}
+
+    </div>
+</div>
+</div>
+</body>
+</html>
