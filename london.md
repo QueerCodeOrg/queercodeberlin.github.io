@@ -1,6 +1,6 @@
 ---
 title: Queer Code London
-layout: text
+layout: default
 ---
 
 ## London

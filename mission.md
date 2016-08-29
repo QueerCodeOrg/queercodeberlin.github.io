@@ -1,6 +1,6 @@
 ---
 title: Mission of Queer Code
-layout: text
+layout: default
 ---
 
 
