@@ -1,7 +1,6 @@
 ---
 title: Queer Code Berlin
-layout: city
+layout: text
 ---
 
-Berlin
-======
+## Berlin
