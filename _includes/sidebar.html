@@ -1,35 +1,15 @@
 <div id="sidebar">
     <h2>News</h2>
-
     <div id="event-list">
+        {% for post in site.posts %}
         <div class="section">
             <div class="body">
-                <h5><a href="events.html">This is just a place holder</a> <span>Aug. 00, 2012</span></h5>
-                <p>
-                    This is just a place holder, so you can see what the site would look like.
-                </p>
-                <span>August 00, 2012</span> <span class="author">by: This is just a place holder</span>
+                <h5><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %-d %Y" }}</span></h5>
+                {{ post.excerpt }}
+                <span class="author">by: {{ post.author }}</span>
             </div>
         </div>
-        <div class="section">
-            <div class="body">
-                <h5><a href="events.html">This is just a placeholder</a></h5>
-                <p>
-                    This is just a place holder, so you can see what the site would look like. This is just
-                    a place holder.
-                </p>
-                <span>August 00, 2012</span> <span class="author">by: This is just a place holder</span>
-            </div>
-        </div>
-        <div class="section">
-            <div class="body">
-                <h5><a href="events.html">This is a Free Template</a> <span>Aug. 00, 2012</span></h5>
-                <p>
-                    This is just a place holder, so you can see what the site would look like.
-                </p>
-                <span>August 00, 2012</span> <span class="author">by: This is just a place holder</span>
-            </div>
-        </div>
+        {% endfor %}
     </div>
-    <span><a href="events.html" class="more">All News Posts</a></span>
+    <span><a href="/posts.html" class="more">All Posts</a></span>
 </div>
