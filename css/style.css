@@ -380,14 +380,10 @@ img {
 	margin: 0 0 24px;
 }
 #program > ul {
-	color: #451a57;
-	font-size: small;
-	margin: 0 0 0 15px;
-	padding: 0;
-}
-#program > ul li p span {
-	color: #451a57;
-	font-family: "Capriola-Regular";
+	font-family: Arial, Helvetica, sans-serif;
+	color: #685b4c;
+	font-size: 14px;
+	line-height: 24px;
 }
 #contents #programs {
 	padding-left: 0;
