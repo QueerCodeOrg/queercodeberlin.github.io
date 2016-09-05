@@ -405,7 +405,7 @@ img {
 	width: 280px;
 	margin: 0 20px;
 }
-#programs > ul li h5, #contacts h5 {
+#programs > ul li h5 {
 	color: #fff;
 	font-family: "Capriola-Regular";
 	font-size: 16px;
@@ -477,9 +477,6 @@ img {
 	min-height: 536px;
 	padding: 28px 10px 24px;
 }
-#contact > p {
-	padding: 0 10px 24px;
-}
 #contact a {
 	color: #685b4c;
 	text-decoration: none;
@@ -488,23 +485,6 @@ img {
 	color: #93460d;
 }
 
-#contact ul {
-	display: inline-block;
-	width: 620px;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-#contact ul li {
-	float: left;
-	height: 74px;
-	width: 290px;
-	margin: 0 10px 24px;
-	overflow: hidden;
-}
-#contact ul li p {
-	padding: 0;
-}
 /** message **/
 #message {
 	float: left;
