@@ -5,7 +5,7 @@ layout: default
 
 ## Purpose
 
-A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, identity, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices.
+A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, transness, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices.
 
 This Code of Conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
@@ -27,7 +27,7 @@ If you see someone who is making an extra effort to ensure our community is welc
 * Exercise consideration and respect in your speech and actions.
 * Attempt collaboration before conflict.
 * Refrain from demeaning, discriminatory, or harassing behavior and speech.
-* Please do not make assumptions. If you aren’t aware of what someone’s gender identity is, and you can’t figure out what pronoun to use, just ask or look at our name tags, where you may find their name and favourite pronoun!
+* Please avoid making assumptions. If you aren’t aware of what someone’s gender is, and you can’t figure out what pronoun to use, just ask or look at our name tags, where you may find their name and favourite pronoun!
 * Please ask before touching anyone at our events. It’s easy, and the worst thing that happens is someone says no! That includes hugging -- you might not know that it makes some people uncomfortable, but it does, so please ask first. 
 * Be mindful of your surroundings and the other participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 
@@ -38,7 +38,7 @@ Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory
 
 Harassment includes:
 
-* harmful or prejudicial verbal or written comments related to gender, sexual orientation, identity, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices
+* harmful or prejudicial verbal or written comments related to gender, sexual orientation, transness, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices
 * trolling, i.e. sustained disruption of conversations, talks or other events
 * nonconsensual photography or recording
 * inappropriate use of nudity and/or sexual images in public spaces (including presentation slides)
@@ -63,7 +63,7 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## If You Witness or Are Subject to Unacceptable Behavior
 
-If you are subject to or witness unacceptable behavior, feel is being treated disrespectfully, or have any other concerns, point out the problem to any member you feel comfortable talking to as soon as possible. If you don't know who to talk to, there will be designated volunteers who are ready to step in on your behalf. You can also reach us [via email](mailto:queer-code-berlin@googlegroups.com){:target="_blank"} or use the [message board on meetup.com](https://www.meetup.com/Queer-Code-Berlin/messages/boards/){:target="_blank"}.
+If you are subject to or witness unacceptable behavior, feel someone is being treated disrespectfully, or have any other concerns, point out the problem to any member you feel comfortable talking to as soon as possible. If you don't know who to talk to, there will be designated volunteers who are ready to step in on your behalf. You can also reach us [via email](mailto:queer-code-berlin@googlegroups.com){:target="_blank"} or use the [message board on meetup.com](https://www.meetup.com/Queer-Code-Berlin/messages/boards/){:target="_blank"}.
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
  
@@ -91,9 +91,9 @@ We would prefer to live in a society where we do not need Codes of Conduct. Howe
 This code of conduct is [open to any suggestions](https://github.com/QueerCodeBerlin/queercodeberlin.github.io//edit/master/coc.md){:target="_blank"} and [criticism](mailto:queer-code-berlin@googlegroups.com){:target="_blank"}: we are happy to learn and improve. You can also see the [history of this document](https://github.com/QueerCodeBerlin/queercodeberlin.github.io/commits/master/coc.md){:target="_blank"} if you're interested. 
 
 
-## Attribution
+## Licence and  Attribution
 
-This Code of Conduct is based on the [Berlin Code of Conduct](http://berlincodeofconduct.org/) and [HAEQS Code of Conduct](https://haeqs.xyz/code-of-conduct/). We essentially just mixed together what they did. Thanks, people, for the wonderful work &hearts;
+This Code of Conduct is distributed under a Creative Commons Attribution-ShareAlike license. It is based on the [Berlin Code of Conduct](http://berlincodeofconduct.org/), which is distributed under the same license. and [HAEQS Code of Conduct](https://haeqs.xyz/code-of-conduct/). We essentially just mixed together what they did. Thanks, people, for the wonderful work &hearts;
 
 References:
 Dreher, T. (2009). “Eavesdropping with permission: the politics of listening for safer speaking spaces.” Borderlands ejournal, 8(1), 1-29.
