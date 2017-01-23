@@ -1,6 +1,6 @@
 ---
 title: Queer Code of Conduct
-layout: default
+layout: text
 ---
 
 ## Purpose

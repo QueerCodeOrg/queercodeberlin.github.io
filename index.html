@@ -1,44 +1,50 @@
 ---
 title: Queer Code
+layout: default
 ---
 
-{% include header.html %}
-
-<div id="contents">
-
-    <div id="adbox">
-        <img src="images/rainbow_flag.jpg" alt="Img" height="456" width="960">
+<div class="tile is-vertical">
+    <div class="tile is-parent">
+        <article class="tile is-child notification">
+            <p class="title has-text-centered">Queer Code</p>
+            <figure class="image is-2by1">
+                <img src="images/rainbow_flag.jpg">
+            </figure>
+            <p class="subtitle has-text-centered">
+                We've come together to connect and support queer people (of all flavors) working in jobs related to
+                software development.<br>
+                See <a href="mission.html">our mission</a>
+            </p>
+        </article>
     </div>
-    <div class="header">
-        {% include sidebar.html %}
-        <p>
-            We've come together to connect and support queer people (of all flavors) working in jobs related to software
-            development.
-        </p>
-    </div>
-    <div id="featured">
-        <h2>Local Communities</h2>
-        <p>
-            See what's up in your city...
-        </p>
-        <ul>
-            <li>
-                <img src="images/city_berlin.jpg" alt="Img" height="167" width="280">
-                <p>
-                    We just had our first meetup.
+    <div class="tile">
+        <div class="tile is-parent">
+            <article class="tile is-child notification">
+                <p class="title">Berlin</p>
+
+                <p class="subtitle has-text-centered">
+                    <a href="https://www.meetup.com/Queer-Code-Berlin/">
+                        <figure class="image is-4by3">
+                            <img src="images/city_berlin.jpg">
+                        </figure>
+                    </a>
                 </p>
-                <span><a href="berlin.html" class="more">See what's next</a></span>
-            </li>
-            <li>
-                <img src="images/city_london.jpg" alt="Img" height="167" width="280">
-                <p>
-                    Starting soon...
-                </p>
-                <span><a href="london.html" class="more">Stay tuned</a></span>
-            </li>
-        </ul>
-    </div>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child notification">
+                <p class="title">London</p>
 
+                <p class="subtitle has-text-centered">
+                    <a href="https://www.meetup.com/Queer-Code-London/">
+                        <figure class="image is-4by3">
+                            <img src="images/city_london.jpg">
+                        </figure>
+                    </a>
+                </p>
+
+            </article>
+        </div>
+    </div>
 </div>
 
-{% include footer.html %}
