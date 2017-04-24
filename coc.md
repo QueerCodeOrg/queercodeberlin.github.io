@@ -11,14 +11,9 @@ This Code of Conduct outlines our expectations for all those who participate in 
 
 We invite all those who participate in our events to help us create safe and positive experiences for everyone.
 
+**Don’t be scared off by these rules! They are in place to protect us, not to intimidate people from interacting with each other in a positive manner or from exploring gender and sexuality.**
 
-## Open [Source/Culture/Tech] Citizenship
-
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
-
-Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
-
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+This code of conduct is [open to any suggestions](https://github.com/QueerCodeBerlin/queercodeberlin.github.io//edit/master/coc.md){:target="_blank"} and [criticism](mailto:queer-code-berlin@googlegroups.com){:target="_blank"}: we are happy to learn and improve. You can also see the [history of this document](https://github.com/QueerCodeBerlin/queercodeberlin.github.io/commits/master/coc.md){:target="_blank"} if you're interested. 
 
 
 ## Expected Behavior
@@ -82,14 +77,9 @@ We expect all community participants (contributors, paid or otherwise; sponsors;
 
 By creating this CoC, we help foster a safer space which “might be less about an absolute security in which there is no risk, no pain and no difficult conversations, but rather more about a redistribution of the risks and discomforts of speaking and organizing” (Dreher 2009,p.17).
 
-**Don’t be scared off by these rules! They are in place to protect us, not to intimidate people from interacting with each other in a positive manner or from exploring gender and sexuality.**
-
 We would prefer to live in a society where we do not need Codes of Conduct. However, Codes of Conduct are essential to establish spaces that are different from – and more inclusive than – general society. If you don’t set up your own rules, you implicitly endorse those prevalent in society – including the unwritten ones – many of which we recognize as unfair to many people. When privileges are not explicitly addressed by the ethos of a space, the burden of education will often be placed upon the people who are living the oppressions. Moreover, since we still perform – consciously or unconsciously – behaviours that have oppressive potential (i.e. patriarchal, racist, sexist, capitalist, (neo)colonialist, etc.), it is essential to reflect on our privileges and on the ways in which they have an impact on our lives and the lives of others.
 
 **A code of conduct can help do just that: to bring awareness, consciousness, reflexivity and ultimately change.**
-
-This code of conduct is [open to any suggestions](https://github.com/QueerCodeBerlin/queercodeberlin.github.io//edit/master/coc.md){:target="_blank"} and [criticism](mailto:queer-code-berlin@googlegroups.com){:target="_blank"}: we are happy to learn and improve. You can also see the [history of this document](https://github.com/QueerCodeBerlin/queercodeberlin.github.io/commits/master/coc.md){:target="_blank"} if you're interested. 
-
 
 ## Licence and  Attribution
 
