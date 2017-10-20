@@ -1,0 +1,14 @@
+- name: Daniel Irvine
+  pronouns: He/Him
+  date_joined: 2016-12
+  image: daniel-irvine.png
+  twitter: d_ir
+  github: dirv
+  about: Daniel is blah blah
+- name: Sam Szreter
+  pronouns: They/Them
+  date_joined: 2017-01
+  image: sam-szreter.png
+  github: onlyskin
+  about: Sam is blah blah
+

@@ -7,7 +7,6 @@
 
 #organisers {
   display: flex;
-  flex-direction: row;
 }
 
 article {

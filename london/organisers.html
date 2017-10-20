@@ -4,13 +4,14 @@ layout: default
 ---
 
 <section id="organisers">
-{% for organiser in site.london_organisers %}
+{% for organiser in site.data.london.organisers %}
   <article id="organiser-card">
   <header>
+    <img src="/assets/images/london/organisers/{{ organiser.image}}" width="250" height="200" />
 		<h1>{{ organiser.name }}</h1>
 		<h2>{{ organiser.pronouns }}</h2>
 	</header>
-  <p>{{ organiser.content }}</p>
+  <p>{{ organiser.about }}</p>
   <footer>
     Organiser since {{ organiser.date_joined }}
   </footer>
