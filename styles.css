@@ -4,3 +4,11 @@
   max-width: 700px;
   margin: auto;
 }
+
+#organisers {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+}

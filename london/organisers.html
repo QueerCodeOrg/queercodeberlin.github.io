@@ -1,0 +1,19 @@
+---
+title: London Organisers
+layout: default
+---
+
+<section id="organisers">
+{% for organiser in site.london_organisers %}
+  <article id="organiser-card">
+  <header>
+		<h1>{{ organiser.name }}</h1>
+		<h2>{{ organiser.pronouns }}</h2>
+	</header>
+  <p>{{ organiser.content }}</p>
+  <footer>
+    Organiser since {{ organiser.date_joined }}
+  </footer>
+  </article>
+{% endfor %}
+</section>
