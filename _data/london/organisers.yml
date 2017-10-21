@@ -1,3 +1,6 @@
+- name: Alex Dytrych
+  pronouns: They/them or she/her
+  date_joined: 2017-04?
 - name: Daniel Irvine
   pronouns: He/Him
   date_joined: 2016-12
@@ -5,10 +8,24 @@
   twitter: d_ir
   github: dirv
   about: Daniel is blah blah
+- name: Franziska Sauerwein
+  pronouns: They/them
+  date_joined: 2016-12
+- name: Hector Dearman
+  pronouns: He/him or they/them
+  date_joined: 2017-01
+- name: Kake
+  pronouns: They/them
+  date_joined: 2017-07
+- name: Kara Stubbs
+  pronouns: She/her
+  date_joined: 2017-09
+- name: Nathan Johnson
+  pronouns: He/him or they/them
+  date_joined: 2017-01
 - name: Sam Szreter
   pronouns: They/Them
   date_joined: 2017-01
   image: sam-szreter.png
   github: onlyskin
   about: Sam is blah blah
-
