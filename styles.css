@@ -7,7 +7,44 @@
 
 #organisers {
   display: flex;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
 }
 
-article {
+#organisers img {
+  padding: 10;
+  width: 250px;
+  height: 200px;
+}
+
+#organisers h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#organisers header {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#organisers h2 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+#organisers footer {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#organisers article {
+  padding: 10px;
+  background-color: #fffcf0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin: 10px;
 }

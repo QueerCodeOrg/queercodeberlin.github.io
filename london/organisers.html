@@ -7,13 +7,19 @@ layout: default
 {% for organiser in site.data.london.organisers %}
   <article id="organiser-card">
   <header>
-    <img src="/assets/images/london/organisers/{{ organiser.image}}" width="250" height="200" />
+    <img src="/assets/images/london/organisers/{{ organiser.image}}" />
 		<h1>{{ organiser.name }}</h1>
 		<h2>{{ organiser.pronouns }}</h2>
-	</header>
+    <a class="icon" href="{{ organiser.twitter }}">
+      <span class="fa fa-twitter" />
+    </a>
+    <a class="icon" href="{{ organiser.github }}">
+      <span class="fa fa-github" />
+    </a>
+  </header>
   <p>{{ organiser.about }}</p>
   <footer>
-    Organiser since {{ organiser.date_joined }}
+    <p>Organiser since {{ organiser.date_joined }}</p>
   </footer>
   </article>
 {% endfor %}
