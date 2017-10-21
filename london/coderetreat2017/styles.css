@@ -10,14 +10,26 @@ section {
   padding: 20px 40px;
 }
 
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 nav a {
   color: black;
   font-size: 0.8em;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  transition: linear 0.2s;
+}
+
+nav a:hover {
+  color: darkgrey;
 }
 
 nav ul {
-	margin: auto;
-	width: 900px;
+	margin: 20px auto 0;
+	width: 708px;
   list-style: none;
   display: flex;
 }
@@ -62,6 +74,18 @@ li {
 #faq {
   background-color: #57B26E;
 	color: white;
+}
+
+#faq a {
+	color: white;
+}
+
+#faq a:hover {
+	color: #ccc;
+}
+
+#faq a:visited {
+	color: #ccc;
 }
 
 #contact {
@@ -137,7 +161,7 @@ li {
 
 .community-logos {
   display: flex;
-  width: 816px;
+  width: 796px;
   margin: 0 auto 40px;
 }
 
@@ -146,7 +170,7 @@ li {
 }
 
 .loc {
-  margin-right: 35px;
+  margin-right: 65px;
 }
 
 @media screen and (max-width: 768px) {
