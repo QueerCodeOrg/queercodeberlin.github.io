@@ -76,6 +76,18 @@ li {
 	color: white;
 }
 
+#faq a {
+	color: white;
+}
+
+#faq a:hover {
+	color: #ccc;
+}
+
+#faq a:visited {
+	color: #ccc;
+}
+
 #contact {
   background-color: #EDDEA4;
   text-align: center;
