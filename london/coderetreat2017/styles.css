@@ -117,7 +117,6 @@ li {
 }
 
 .buttons {
-  padding-top: 40px;
   text-align: center;
 }
 
@@ -131,7 +130,9 @@ li {
   display: inline-block;
   transition: linear 0.5s;
   border-radius: 4px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 320px;
 }
 
 .cta:hover {
@@ -161,8 +162,7 @@ li {
 
 .community-logos {
   display: flex;
-  width: 796px;
-  margin: 0 auto 40px;
+  justify-content: center;
 }
 
 .community-logo {
