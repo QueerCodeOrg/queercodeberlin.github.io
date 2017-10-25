@@ -28,9 +28,9 @@ nav a:hover {
 }
 
 nav ul {
-	margin: 20px auto 0;
-	width: 708px;
+	margin-top: 20px;
   list-style: none;
+  justify-content: center;
   display: flex;
 }
 
@@ -46,25 +46,29 @@ li {
   background-color: #EDDEA4;
 }
 
-#what-is-it {
+.blue {
   background-color: #0FA3B1;
 	color: white;
 }
 
-#what-is-it a {
+.blue a {
 	color: white;
 }
 
-#what-is-it a:hover {
+.blue a:hover {
 	color: #ccc;
 }
 
-#what-is-it a:visited {
+.blue a:visited {
 	color: #ccc;
 }
 
 #when-where {
   background-color: #D9E5D6;
+}
+
+#coc {
+  text-align: center;
 }
 
 #sponsors {
