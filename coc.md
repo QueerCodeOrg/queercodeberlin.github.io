@@ -46,7 +46,7 @@ Harassment includes:
 
 We  have **no discussion about how your behaviour was meant. What we care about is how it makes our participants feel.** Please just respect that if one of the participants is hurt by your behaviour, it is on you to change it or leave.
 
-Please also be aware that many of us have had to explain ourselves a lot and it's not fair to assume that everybody has time and energy to give you explanations about how they feel or about any other queer topic you may be curious about. If you have have questions, feel free to ask, there may be volunteers around to help you answer it or recommend some reading material. Otherwise, the [Geek Feminist Wiki](https://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki){:target="_blank"} is a good place to start.
+Please also be aware that many of us have had to explain ourselves a lot and it's not fair to assume that everybody has time and energy to give you explanations about how they feel or about any other queer topic you may be curious about. If you have questions, feel free to ask, there may be volunteers around to help you answer it or recommend some reading material. Otherwise, the [Geek Feminist Wiki](https://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki){:target="_blank"} is a good place to start.
 
 
 ## Consequences of Unacceptable Behavior
