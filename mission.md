@@ -16,5 +16,5 @@ This might include zero, one or more of the following: Agender,
 Androgyne, Asexual, Bicurious, Bigender, Bisexual, Demiboy, Demigirl, Demiguy, Elissogender, Enby,
 Feminine of Center, Gay, Gender Non-Conforming, Genderfluid, Genderflux, Genderqueer, Homosexual,
 Intergender, Intersexual, Lesbian, Masculine of Center, Maverique, Multigender, Multisexual, Neutrois,
-Non-Binary, Non-Monosexual, Novosexual, Pangender, Pansexual, Polygender, Polysexual, Queer,
+Non-Binary, Non-Monosexual, Novosexual, Pangender, Pansexual, Polyamorous, Polygender, Polysexual, Queer,
 Questioning, Skoliosexual, Trans*, Transgender, Transsexual, Trigender.
