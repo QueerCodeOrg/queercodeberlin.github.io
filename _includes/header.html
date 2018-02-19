@@ -2,70 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We've come together to connect and support queer people (of all flavors) working in jobs related to software development.">
+    
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script defer src="main.js"></script>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-<nav class="nav">
-    <div class="nav-left">
-        <a class="nav-item" href="index.html">
-            <img src="images/logo_small.png" alt="Queer Code logo">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item navbar-item--logo" href="/">
+            <img src="images/logo.png" alt="Queer Code logo" />
+            Queer Code
         </a>
+
+        <div class="navbar-item navbar-item--menu-button" data-target="navMenu">
+            <i class="fa fa-bars" aria-hidden></i>
+            Menu
+        </div>
     </div>
 
-    <div class="nav-center">
-        <a class="nav-item" href="https://github.com/QueerCodeBerlin/queercodeberlin.github.io">
-            <span class="icon">
-                <i class="fa fa-github"></i>
+    <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end">
+            <span class="navbar-item">
+                <script async defer src="https://slackinvite-qcldn.herokuapp.com/slackin.js"></script>
             </span>
-        </a>
-        <a class="nav-item" href="https://twitter.com/QueerCodeBerlin/">
-            <span class="icon">
-                <i class="fa fa-twitter"></i>
-            </span>
-        </a>
-        <a class="nav-item" href="mailto:queer-code-berlin@googlegroups.com">
-            <span class="icon">
-                <i class="fa fa-envelope"></i>
-            </span>
-        </a>
-    </div>
-
-    <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-    <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-    <span class="nav-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
-
-    <!-- This "nav-menu" is hidden on mobile -->
-    <!-- Add the modifier "is-active" to display it on mobile -->
-    <div class="nav-right nav-menu">
-        <a class="nav-item" href="index.html">
-            Home
-        </a>
-        <a class="nav-item" href="mission.html">
-            Mission
-        </a>
-        <a class="nav-item" href="coc.html">
-            CoC
-        </a>
-
-        <span class="nav-item">
-            <a class="button is-primary" href="https://www.meetup.com/find/?keywords=queer+code&radius=50000">
-                <span class="icon">
-                    <i class="fa fa-meetup"></i>
-                </span>
-                <span>Meet Us</span>
+            <a class="navbar-item is-rainbow" href="/">
+                Home
             </a>
-        </span>
+            <a class="navbar-item is-rainbow" href="/mission">
+                Mission
+            </a>
+            <a class="navbar-item is-rainbow" href="/coc">
+                Code of Conduct
+            </a>
+        </div>
     </div>
 </nav>
-
-
-<div style="padding: 1em">

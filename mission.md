@@ -1,7 +1,9 @@
 ---
-title: Mission of Queer Code
+title: Mission
 layout: text
 ---
+
+# Mission
 
 ## Non-Profit
 
