@@ -3,62 +3,100 @@ title: Queer Code
 layout: default
 ---
 
-<div class="tile is-vertical">
-    <div class="tile is-parent">
-        <article class="tile is-child notification">
-            <p class="title has-text-centered">Queer Code</p>
-            <figure class="image is-2by1">
-                <img src="images/rainbow_flag.jpg">
-            </figure>
-            <p class="subtitle has-text-centered">
-                We've come together to connect and support queer people (of all flavors) working in jobs related to
-                software development.<br>
-                See <a href="mission.html">our mission</a>
-            </p>
-        </article>
+<div class="columns">
+  <div class="column">
+    <div class="hero">
+      <h1 class="title is-spaced">
+        Queer Code
+      </h1>
+      <p class="subtitle">
+         {{ site.description }}
+      </p>
+      <p>
+        <a class="button is-bordered is-rainbow" href="/mission">Our mission</a>
+      </p>
     </div>
-    <div class="tile">
-        <div class="tile is-parent">
-            <article class="tile is-child notification">
-                <p class="title">Berlin</p>
+  </div>
+  <div class="column">
+    <img class="home-image is-rainbow" src="images/people.jpg" alt="People at Queer Code" />
+  </div>
+</div>
 
-                <p class="subtitle has-text-centered">
-                    <a href="https://www.meetup.com/Queer-Code-Berlin/">
-                        <figure class="image is-4by3">
-                            <img src="images/city_berlin.jpg">
-                        </figure>
-                    </a>
-                </p>
-            </article>
+<div class="places">
+  <h2 class="title">Places</h2>
+
+  <div class="columns">
+    <div class="column">
+      <div class="place">
+        <h3 class="title">Berlin</h3>
+
+        <img class="image" src="images/city_berlin.jpg" alt="Berlin" />
+        
+        <div class="links">
+          <a class="button is-bordered is-rainbow" href="https://www.meetup.com/Queer-Code-Berlin/">
+            <i class="fa fa-meetup" aria-hidden="true"></i> Join us
+          </a>
+          <a class="navbar-item is-bordered" href="https://github.com/QueerCodeBerlin">
+            <i class="fa fa-github" aria-hidden="true"></i> GitHub
+          </a>
+          <a class="navbar-item" href="https://twitter.com/QueerCodeBerlin/">
+            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+          </a>
+          <a class="navbar-item" href="mailto:queer-code-berlin@googlegroups.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Google Groups
+          </a>
         </div>
-        <div class="tile is-parent">
-            <article class="tile is-child notification">
-                <p class="title">London</p>
-
-                <p class="subtitle has-text-centered">
-                    <a href="https://www.meetup.com/Queer-Code-London/">
-                        <figure class="image is-4by3">
-                            <img src="images/city_london.jpg">
-                        </figure>
-                    </a>
-                </p>
-
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child notification">
-                <p class="title">Yorkshire</p>
-
-                <p class="subtitle has-text-centered">
-                    <a href="https://www.eventbrite.com/o/queer-code-yorkshire-15310069508">
-                        <figure class="image is-4by3">
-                            <img src="images/yorkshire.jpg">
-                        </figure>
-                    </a>
-                </p>
-
-            </article>
-        </div>
+      </div>
     </div>
+    <div class="column">
+      <div class="place">
+        <h3 class="title">London</h3>
+
+        <img class="image" src="images/city_london.jpg" alt="London" />
+            
+        <div class="links">
+          <a class="button is-bordered is-rainbow" href="https://www.meetup.com/Queer-Code-London/">
+            <i class="fa fa-meetup" aria-hidden="true"></i> Join us
+          </a>
+          <a class="navbar-item" href="https://github.com/QCLdn">
+            <i class="fa fa-github" aria-hidden="true"></i> GitHub
+          </a>
+          <a class="navbar-item" href="https://twitter.com/QCLdn/">
+            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="place">
+        <h3 class="title">Yorkshire</h3>
+
+        <img class="image" src="images/city_yorkshire.jpg" alt="Yorkshire" />
+        
+        <div class="links">
+          <a class="button is-bordered is-rainbow" href="https://www.eventbrite.com/o/queer-code-yorkshire-15310069508">
+            Join us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slack">
+  <div class="columns">
+    <div class="column">
+      <h2 class="title is-spaced">We're on Slack</h2>
+      <p class="subtitle">Slack is a place where we organise events and chat to each other.</p>
+      <p>
+        <a class="button is-bordered is-rainbow" href="https://slackinvite-qcldn.herokuapp.com/">
+          Join us on Slack
+        </a>
+      </p>
+    </div>
+    <div class="column is-one-fifth">
+      <img class="logo" src="images/logo-slack.svg" alt="Slack logo" />
+    </div>
+  </div>
 </div>
 

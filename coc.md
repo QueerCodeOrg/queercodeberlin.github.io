@@ -1,7 +1,9 @@
 ---
-title: Queer Code of Conduct
+title: Code of Conduct
 layout: text
 ---
+
+# Code of Conduct
 
 ## Purpose
 

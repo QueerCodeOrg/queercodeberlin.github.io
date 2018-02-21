@@ -1,0 +1,16 @@
+.slack {
+  margin: 0 -2em;
+  padding: 2em 3em;
+
+  background: #fbfbfb;
+}
+
+.slack .logo {
+  width: 8em;
+}
+
+@media (min-width: 1024px) {
+  .slack .logo {
+    // margin: 2em;
+  }
+}

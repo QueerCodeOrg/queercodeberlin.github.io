@@ -1,0 +1,26 @@
+.hero {
+  padding: 1em 1em 2em;
+}
+
+.hero .title {
+  font-size: 3.5em;
+}
+
+.hero .subtitle {
+  max-width: 35em;
+}
+
+.hero .button {
+  font-size: 1.5em;
+}
+
+.home-image {
+  width: 100%;
+}
+
+@media (min-width: 770px) {
+  .home-image {
+    border-radius: 10px;
+    transform: translateY(2em) translateX(3em) rotate(-5deg);
+  }
+}
