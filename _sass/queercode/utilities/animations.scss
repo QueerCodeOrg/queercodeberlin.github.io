@@ -1,0 +1,9 @@
+@keyframes rainbowHueShift {
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.is-rainbow {
+  animation: rainbowHueShift 60s infinite;
+}

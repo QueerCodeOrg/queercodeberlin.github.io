@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We've come together to connect and support queer people (of all flavors) working in jobs related to software development.">
-    
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  
+  <link rel="manifest" href="/manifest.json">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="styles.css"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+ 
+  <script defer src="js/scripts.js"></script>
 </head>
 <body>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item navbar-item--logo" href="/">
-            <img src="images/logo.png" alt="Queer Code logo" />
-            Queer Code
-        </a>
+<div class="container is-fluid">
+  <div class="navbar-brand">
+    <a class="navbar-item navbar-item--logo" href="/">
+      <img src="images/logo.png" alt="Queer Code logo" />
+      Queer Code
+    </a>
 
-        <div class="navbar-item navbar-item--menu-button" data-target="navMenu">
-            <i class="fa fa-bars" aria-hidden></i>
-            Menu
-        </div>
+    <div class="navbar-item navbar-item--menu-button" data-target="navMenu">
+      <i class="fa fa-bars" aria-hidden></i>
+      Menu
     </div>
+  </div>
 
-    <div class="navbar-menu" id="navMenu">
-        <div class="navbar-end">
-            <span class="navbar-item">
-                <script async defer src="https://slackinvite-qcldn.herokuapp.com/slackin.js"></script>
-            </span>
-            <a class="navbar-item is-rainbow" href="">
-                Home
-            </a>
-            <a class="navbar-item is-rainbow" href="mission">
-                Mission
-            </a>
-            <a class="navbar-item is-rainbow" href="coc">
-                Code of Conduct
-            </a>
-        </div>
+  <div class="navbar-menu is-active" id="navMenu">
+    <div class="navbar-end">
+      <span class="navbar-item navbar-item--slack">
+        <script async defer src="https://slackinvite-qcldn.herokuapp.com/slackin.js"></script>
+      </span>
+      <a class="navbar-item is-rainbow" href="">
+        Home
+      </a>
+      <a class="navbar-item is-rainbow" href="mission">
+        Mission
+      </a>
+      <a class="navbar-item is-rainbow" href="coc">
+        Code of Conduct
+      </a>
     </div>
+  </div>
+</div>
 </nav>
