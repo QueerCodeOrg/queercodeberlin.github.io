@@ -7,3 +7,11 @@
 .is-rainbow {
   animation: rainbowHueShift 40s infinite;
 }
+
+/* when Reduced Motion is enabled in Safari */
+@media screen and (prefers-reduced-motion: reduce) {
+  .is-rainbow {
+    animation: none;
+  }
+}
+
