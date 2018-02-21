@@ -7,7 +7,7 @@ layout: text
 
 ## Non-Profit
 
-This group has no commercial interests whatsoever. We're against pink washing anything. We are here to find
+This group has no commercial interests whatsoever. We're against [pink washing](https://en.wikipedia.org/wiki/Pinkwashing_(LGBT)) anything. We are here to find
 new friends, colleagues, mentors. We want to be with people like us.
 
 ## What We Consider Queer
