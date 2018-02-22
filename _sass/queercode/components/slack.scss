@@ -1,6 +1,5 @@
 .slack {
-  margin: 0 -2em;
-  padding: 2em 3em;
+  padding: 3em 1em;
 
   background: #fbfbfb;
 }
@@ -9,8 +8,10 @@
   width: 8em;
 }
 
+/* this is kinda naff, doing a negative margin */
 @media (min-width: 1024px) {
-  .slack .logo {
-    // margin: 2em;
+  .slack {
+    margin: 0 -2em;
+    padding: 3em;
   }
 }
