@@ -5,9 +5,10 @@
 1. Install Jekyll locally. See [Jekyll](http://jekyllrb.com)
 2. Clone this repo.
 3. Change into the directory.
-4. `jekyll build`
+4. `bundle install` (you may also need to do `gem install bundler` first)
+5. `jekyll build`
 
-## Developmnet
+## Development
 
 1. Install LiveReload chrome extentions (Optional)
 2. `jekyll serve --livereload`
