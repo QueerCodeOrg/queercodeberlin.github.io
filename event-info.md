@@ -5,6 +5,8 @@ layout: text
 
 We run talks, workshops, and social events. Come along and work on your personal projects, and also meet like-minded people.
 
+Upcoming events are listed on [our Meetup community page](https://www.meetup.com/Queer-Code-London).
+
 ### Buddy Scheme
 
 We know it can be difficult to join a new social group, so we offer a Buddy Scheme to make it easier. One of our team will meet you before the event starts, and introduce you to the group.
