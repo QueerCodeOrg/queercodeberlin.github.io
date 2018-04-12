@@ -1,7 +1,9 @@
 ---
-title: Event Information
+title: London Event Information
 layout: text
 ---
+
+# London Event Information
 
 We run talks, workshops, and social events. Come along and work on your personal projects, and also meet like-minded people.
 
