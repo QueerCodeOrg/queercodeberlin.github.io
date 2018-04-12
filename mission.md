@@ -3,12 +3,23 @@ title: Mission
 layout: text
 ---
 
-# Mission
+# Our Vision
 
-## Non-Profit
+A coding community free from all forms of discrimination.
 
-This group has no commercial interests whatsoever. We're against [pink washing](https://en.wikipedia.org/wiki/Pinkwashing_(LGBT)) anything. We are here to find
-new friends, colleagues, mentors. We want to be with people like us.
+# Our Mission
+
+We are here to find colleagues, mentors, and new friends. 
+
+We aim to:
+- Establish a community of queer coders
+- Create safe(r) spaces for queer people to socialise, learn, and network
+- Promote and support members of underrepresented groups in tech
+- Challenge and change structural inequalities in tech
+
+## We Are Non-Profit
+
+This group has no commercial interests whatsoever. We're against [pink washing](https://en.wikipedia.org/wiki/Pinkwashing_(LGBT)) anything. 
 
 ## What We Consider Queer
     
