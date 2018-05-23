@@ -8,6 +8,15 @@
   width: 8em;
 }
 
+/* this is a bit of a hack to deal with bad styling in the slackin plugin */
+div.__slackin {
+  height: 30em !important;
+
+  iframe.__slackin {
+    height: 100% !important;
+  }
+}
+
 /* this is kinda naff, doing a negative margin */
 @media (min-width: 1024px) {
   .slack {
