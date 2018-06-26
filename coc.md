@@ -35,7 +35,7 @@ Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory
 
 Harassment includes:
 
-* harmful or prejudicial verbal or written comments related to gender, sexual orientation, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices
+* harmful or prejudicial verbal or written comments related to gender, trans status, sexual orientation, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices
 * trolling, i.e. sustained disruption of conversations, talks or other events
 * nonconsensual photography or recording
 * inappropriate use of nudity and/or sexual images in public spaces (including presentation slides)
