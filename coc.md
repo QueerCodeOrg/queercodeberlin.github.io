@@ -7,7 +7,7 @@ layout: text
 
 ## Purpose
 
-A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, transness, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices.
+A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices.
 
 This Code of Conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
@@ -35,7 +35,7 @@ Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory
 
 Harassment includes:
 
-* harmful or prejudicial verbal or written comments related to gender, sexual orientation, transness, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices
+* harmful or prejudicial verbal or written comments related to gender, sexual orientation, physical appearance, body size, technical choices, lack of technical knowledge, ability, ethnicity, socioeconomic status, religion (or lack thereof) and other personal conditions and choices
 * trolling, i.e. sustained disruption of conversations, talks or other events
 * nonconsensual photography or recording
 * inappropriate use of nudity and/or sexual images in public spaces (including presentation slides)
