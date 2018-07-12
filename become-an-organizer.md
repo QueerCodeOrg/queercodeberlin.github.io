@@ -11,6 +11,7 @@ Queer Code is very much a team effort. You're very welcome to host and run your 
 This checklist should help you run a successful event with us.
 
 | What | When |
+| ---- | ---- |
 | Join our Meetup group if you haven't already | > 3 weeks before event |
 | Join the #organisation-london Slack channel on our Slack | > 3 weeks before event |
 | Request Event Organizer role on Meetup by asking in #organisation-london | > 3 weeks before event |
@@ -42,16 +43,15 @@ Follow these guidelines when you're drafting you're event. People reviewing your
  * Make sure you cap the number of attendees. You'll need to know how many attendees your venue can hold.
  * No-shows can be a real problem. Rather than artificially increasing the capacity, we rely on sending a reminder email 2 days before to keep the number of no-shows low. So please make sure the number you use here accuretely reflects the capacity of the venue.
 
-### Where
+### Where
  * If you're meeting in a private space, make sure you give detailed instructions about how to enter the building.
  * If you're meeting in a public space, it would help for you to have an easy way that people that can identify you. Recognising you is not enough: try a rug or a rainbow flag instead, and make sure you mention this in the Meetup event.
 
 ### Description
-
-What will happen
-Link to our event info page which covers a lot (event-info.html?)
-Accessibility
-Food and drink options
+ * What will happen
+ * Link to our event info page which covers a lot (event-info.html?)
+ * Accessibility
+ * Food and drink options
 
 
 ### Food and drink
@@ -60,8 +60,8 @@ Food and drink options
 
 # How to host an event
 
-Find an assistant host
-Signage
-Introductions
-Code of conduct
-Looking out for people
+ * Find an assistant host
+ * Signage
+ * Introductions
+ * Code of conduct
+ * Looking out for people
