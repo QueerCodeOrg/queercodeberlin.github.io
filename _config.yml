@@ -6,7 +6,7 @@
 # feature for the data you need to update frequently.
 #
 title: Queer Code
-description: We've come together to connect and support queer people (of all flavors) working in jobs related to software development.
+description: We are a community of queer coders. We build tech together, share our ideas at local meetups, and provide support for queer people working in software development.
 sass:
     sass_dir: _sass
     style: compressed
