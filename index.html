@@ -25,77 +25,36 @@ layout: default
 
 <div class="columns">
   <div class="column">
+    {% for meetup in site.data.meetups %}
     <div class="place">
       <div class="columns">
         <div class="column is-one-third">
-          <img class="image" src="images/city_berlin.jpg" alt="Berlin" />
+          <img class="image" src="images/{{ meetup.image }}" alt="Berlin" />
         </div>
         <div class="column">
-          <h3 class="title">Berlin</h3>
-
+          <h3 class="title">{{ meetup.name }}</h3>
           <div class="links">
-            <a class="button is-bordered is-rainbow" href="https://www.meetup.com/Queer-Code-Berlin/">
-              <i class="fa fa-meetup" aria-hidden="true"></i> Join us
+            <a class="button is-bordered is-rainbow" href="{{ meetup.joinLink }}">
+              <i class="fa fa-{{ meetup.joinType}}" aria-hidden="true"></i> Join us
             </a>
-            <a class="navbar-item is-bordered" href="https://github.com/QueerCodeBerlin">
+            {% if meetup.github %}
+            <a class="navbar-item is-bordered" href="{{ meetup.github }}">
               <i class="fa fa-github" aria-hidden="true"></i> GitHub
             </a>
-            <a class="navbar-item twitter-link" href="https://twitter.com/QueerCodeBerlin/">
+            {% endif %}
+            <a class="navbar-item twitter-link" href="{{ meetup.twitter }}">
               <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
             </a>
-            <a class="navbar-item" href="mailto:queer-code-berlin@googlegroups.com">
+            {% if meetup.mail %}
+            <a class="navbar-item" href="{{ meetup.mail }}">
               <i class="fa fa-envelope" aria-hidden="true"></i> Google Groups
             </a>
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
-    <div class="place">
-      <div class="columns">
-        <div class="column is-one-third">
-          <img class="image" src="images/city_london.jpg" alt="London" />
-        </div>
-        <div class="column">
-          <h3 class="title">London</h3>
-
-          <div class="links">
-            <a class="button is-bordered is-rainbow" href="https://www.meetup.com/Queer-Code-London/">
-              <i class="fa fa-meetup" aria-hidden="true"></i> Join us
-            </a>
-            <a class="navbar-item" href="/event-info">
-              <i class="fa fa-users" aria-hidden="true"></i> Event information
-            </a>
-            <a class="navbar-item" href="https://github.com/QCLdn">
-              <i class="fa fa-github" aria-hidden="true"></i> GitHub
-            </a>
-            <a class="navbar-item" href="mailto:qclnd-orga@googlegroups.com">
-              <i class="fa fa-envelope" aria-hidden="true"></i> Google Groups
-            </a>
-            <a class="navbar-item twitter-link" href="https://twitter.com/QCLdn/">
-              <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="place">
-      <div class="columns">
-        <div class="column is-one-third">
-          <img class="image" src="images/city_yorkshire.jpg" alt="Yorkshire" />
-        </div>
-        <div class="column">
-          <h3 class="title">Yorkshire</h3>
-          <div class="links">
-            <a class="button is-bordered is-rainbow" href="https://www.eventbrite.com/o/queer-code-yorkshire-15310069508">
-              Join us
-            </a>
-            <a class="navbar-item twitter-link" href="https://twitter.com/QueerCodeYorks">
-              <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 
   <div class="column">
