@@ -1,14 +1,9 @@
-.places > .title {
-  font-size: 3em;
-  padding: 1rem;
-}
-
 .place {
-  padding: 1em;
+  padding: 10px;
 }
 
 .place .title {
-  margin-bottom: 1em;
+  font-size: 3em;
 }
 
 .places .links {
@@ -22,5 +17,5 @@
 }
 
 .place .image {
-  border-radius: 10px;
+  border-radius: 5px;
 }
