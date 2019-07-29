@@ -1,8 +1,5 @@
 .hero {
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 1em 1em 2em;
-  background-color: #FFE9F6;
+  padding: 1rem 1rem 2rem 0.75rem;
   border-radius: 5px;
 }
 
@@ -19,3 +16,13 @@
 }
 
 
+.home-image {
+  width: 100%;
+}
+
+@media (min-width: 770px) {
+  .home-image {
+    border-radius: 8px;
+    transform: translateY(2em) translateX(3em) rotate(-5deg);
+  }
+}

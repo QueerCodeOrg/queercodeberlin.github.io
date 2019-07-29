@@ -1,3 +1,8 @@
+.twitter-timeline-container > .title {
+  margin-left: 0.75rem;
+  margin-top: 1.25rem;
+}
+
 .twitter-timeline-container {
   display: none;
 }
@@ -5,9 +10,5 @@
 @media (min-width: 770px) {
   .twitter-timeline-container {
     display: block;
-  }
-
-  .twitter > .title {
-    margin-top: 20px;
   }
 }
