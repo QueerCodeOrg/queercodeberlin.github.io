@@ -4,7 +4,7 @@
     image: 'city_berlin.jpg',
     joinLink: 'https://www.meetup.com/Queer-Code-Berlin/',
     joinType: 'meetup',
-    github: 'https://github.com/QueerCodeBerlin',
+    github: 'https://github.com/QueerCodeOrg',
     twitter: 'https://twitter.com/QueerCodeBerlin',
     mail: 'mailto:queer-code-berlin@googlegroups.com'
   },
