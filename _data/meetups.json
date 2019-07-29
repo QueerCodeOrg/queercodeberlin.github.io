@@ -1,27 +1,27 @@
 [
   {
-    name: 'Berlin',
-    image: 'city_berlin.jpg',
-    joinLink: 'https://www.meetup.com/Queer-Code-Berlin/',
-    joinType: 'meetup',
-    github: 'https://github.com/QueerCodeOrg',
-    twitter: 'https://twitter.com/QueerCodeBerlin',
-    mail: 'mailto:queer-code-berlin@googlegroups.com'
+    "name": "Berlin",
+    "image": "city_berlin.jpg",
+    "joinLink": "https://www.meetup.com/Queer-Code-Berlin/",
+    "joinType": "meetup",
+    "github": "https://github.com/QueerCodeOrg",
+    "twitter": "https://twitter.com/QueerCodeBerlin",
+    "mail": "mailto:queer-code-berlin@googlegroups.com"
   },
   {
-    name: 'London',
-    image: 'city_london.jpg',
-    joinLink: 'https://www.meetup.com/Queer-Code-London/',
-    joinType: 'meetup',
-    github: 'https://github.com/QCLdn',
-    twitter: 'https://twitter.com/QCLdn',
-    mail: 'mailto:qclnd-orga@googlegroups.com'
+    "name": "London",
+    "image": "city_london.jpg",
+    "joinLink": "https://www.meetup.com/Queer-Code-London/",
+    "joinType": "meetup",
+    "github": "https://github.com/QCLdn",
+    "twitter": "https://twitter.com/QCLdn",
+    "mail": "mailto:qclnd-orga@googlegroups.com"
   },
   {
-    name: 'Yorkshire',
-    image: 'city_yorkshire.jpg',
-    joinLink: 'https://www.eventbrite.com/o/queer-code-yorkshire-15310069508',
-    joinType: 'eventbrite',
-    twitter: 'https://twitter.com/QueerCodeYorks',
+    "name": "Yorkshire",
+    "image": "city_yorkshire.jpg",
+    "joinLink": "https://www.eventbrite.com/o/queer-code-yorkshire-15310069508",
+    "joinType": "eventbrite",
+    "twitter": "https://twitter.com/QueerCodeYorks"
   }
 ]
