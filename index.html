@@ -3,6 +3,7 @@ title: Queer Code
 layout: default
 ---
  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <div class="columns">
   <div class="column">
     <div class="hero">
@@ -22,99 +23,62 @@ layout: default
   </div>
 </div>
 
-<div class="places">
-  <h2 class="title">Places</h2>
-
-  <div class="columns">
-    <div class="column">
-      <div class="place">
-        <h3 class="title">Berlin</h3>
-
-        <img class="image" src="images/city_berlin.jpg" alt="Berlin" />
-
-        <div class="links">
-          <a class="button is-bordered is-rainbow" href="https://www.meetup.com/Queer-Code-Berlin/">
-            <i class="fa fa-meetup" aria-hidden="true"></i> Join us
-          </a>
-          <a class="navbar-item is-bordered" href="https://github.com/QueerCodeBerlin">
-            <i class="fa fa-github" aria-hidden="true"></i> GitHub
-          </a>
-          <a class="navbar-item twitter-link" href="https://twitter.com/QueerCodeBerlin/">
-            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-          </a>
-          <a class="navbar-item" href="mailto:queer-code-berlin@googlegroups.com">
-            <i class="fa fa-envelope" aria-hidden="true"></i> Google Groups
-          </a>
+<div class="columns">
+  <div class="column places">
+    <h2 class="title">Find your local meetup</h2>
+    {% for meetup in site.data.meetups %}
+    <div class="place">
+      <div class="columns">
+        <div class="column is-one-third">
+          <img class="image" src="images/{{ meetup.image }}" alt="Berlin" />
         </div>
-        <div class="twitter-timeline-container">
-          <a class="twitter-timeline" data-height="500" href="https://twitter.com/QueerCodeBerlin?ref_src=twsrc%5Etfw">Tweets by Queer Code Berlin</a>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="place">
-        <h3 class="title">London</h3>
-
-        <img class="image" src="images/city_london.jpg" alt="London" />
-
-        <div class="links">
-          <a class="button is-bordered is-rainbow" href="https://www.meetup.com/Queer-Code-London/">
-            <i class="fa fa-meetup" aria-hidden="true"></i> Join us
-          </a>
-          <a class="navbar-item" href="/event-info">
-            <i class="fa fa-users" aria-hidden="true"></i> Event information
-          </a>
-          <a class="navbar-item" href="https://github.com/QCLdn">
-            <i class="fa fa-github" aria-hidden="true"></i> GitHub
-          </a>
-          <a class="navbar-item" href="mailto:qclnd-orga@googlegroups.com">
-            <i class="fa fa-envelope" aria-hidden="true"></i> Google Groups
-          </a>
-          <a class="navbar-item twitter-link" href="https://twitter.com/QCLdn/">
-            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-          </a>
-        </div>
-        <div class="twitter-timeline-container">
-          <a class="twitter-timeline" data-height="500" href="https://twitter.com/QCLdn?ref_src=twsrc%5Etfw">Tweets by Queer Code London</a>
+        <div class="column">
+          <h3 class="title">{{ meetup.name }}</h3>
+          <div class="links">
+            <a class="button is-bordered is-rainbow" href="{{ meetup.joinLink }}">
+              <i class="fa fa-{{ meetup.joinType}}" aria-hidden="true"></i> Join us
+            </a>
+            {% if meetup.github %}
+            <a class="navbar-item is-bordered" href="{{ meetup.github }}">
+              <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            </a>
+            {% endif %}
+            <a class="navbar-item twitter-link" href="{{ meetup.twitter }}">
+              <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+            </a>
+            {% if meetup.mail %}
+            <a class="navbar-item" href="{{ meetup.mail }}">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Google Groups
+            </a>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>
-    <div class="column">
-      <div class="place">
-        <h3 class="title">Yorkshire</h3>
-
-        <img class="image" src="images/city_yorkshire.jpg" alt="Yorkshire" />
-
-        <div class="links">
-          <a class="button is-bordered is-rainbow" href="https://www.eventbrite.com/o/queer-code-yorkshire-15310069508">
-            Join us
-          </a>
-          <a class="navbar-item twitter-link" href="https://twitter.com/QueerCodeYorks">
-            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-          </a>
-        </div>
-        <div class="twitter-timeline-container">
-          <a class="twitter-timeline" data-height="500" href="https://twitter.com/QueerCodeYorks?ref_src=twsrc%5Etfw">Tweets by Queer Code Yorkshire</a>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
+
+  <div class="column">
+    <div class="twitter-timeline-container">
+      <h2 class="title">Tweets from Queer Code groups</h2>
+      <a class="twitter-timeline" data-height="1000" data-chrome="noheader" data-dnt="true" href="https://twitter.com/QCLdn/lists/tweets-from-queer-code">Queer Code on Twitter</a>
+    </div>
+    </div>
 </div>
 
 <div class="slack">
   <div class="columns">
     <div class="column">
       <h2 class="title is-spaced">We're on Slack</h2>
-      <p class="subtitle">Slack is a place where we organise events and chat to each other.</p>
+      <p class="subtitle">Chat to queer coders around the world in our Slack group.</p>
       <p>
         <a class="button is-bordered is-rainbow" href="https://slackinvite-qcldn.herokuapp.com/">
           Join us on Slack
         </a>
       </p>
     </div>
-    <div class="column is-one-fifth">
+    <div class="column is-one-third">
       <img class="logo" src="images/logo-slack.svg" alt="Slack logo" />
     </div>
   </div>
 </div>
-

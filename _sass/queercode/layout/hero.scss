@@ -1,5 +1,6 @@
 .hero {
-  padding: 1em 1em 2em;
+  padding: 1rem 1rem 2rem 0.75rem;
+  border-radius: 5px;
 }
 
 .hero .title {
@@ -14,13 +15,14 @@
   font-size: 1.5em;
 }
 
+
 .home-image {
   width: 100%;
 }
 
 @media (min-width: 770px) {
   .home-image {
-    border-radius: 10px;
+    border-radius: 8px;
     transform: translateY(2em) translateX(3em) rotate(-5deg);
   }
 }
