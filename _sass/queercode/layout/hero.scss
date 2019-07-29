@@ -15,14 +15,14 @@
   font-size: 1.5em;
 }
 
-
 .home-image {
   width: 100%;
+  vertical-align: center;
 }
 
 @media (min-width: 770px) {
   .home-image {
     border-radius: 8px;
-    transform: translateY(2em) translateX(3em) rotate(-5deg);
+    transform: translateY(1em) translateX(4em) rotate(-5deg);
   }
 }
