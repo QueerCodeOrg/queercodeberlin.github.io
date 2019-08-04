@@ -23,5 +23,10 @@
     "joinLink": "https://www.eventbrite.com/o/queer-code-yorkshire-15310069508",
     "joinType": "eventbrite",
     "twitter": "https://twitter.com/QueerCodeYorks"
+  },
+  {
+    "name": "Scotland",
+    "image": "city_scotland.jpg",
+    "twitter": "https://twitter.com/qcscot"
   }
 ]
