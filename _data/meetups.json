@@ -27,6 +27,8 @@
   {
     "name": "Scotland",
     "image": "city_scotland.jpg",
+    "joinLink": "https://www.meetup.com/qcscot/",
+    "joinType": "meetup",
     "twitter": "https://twitter.com/qcscot"
   }
 ]
