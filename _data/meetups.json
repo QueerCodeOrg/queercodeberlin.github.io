@@ -18,17 +18,18 @@
     "mail": "mailto:qclnd-orga@googlegroups.com"
   },
   {
+    "name": "Scotland",
+    "image": "city_scotland.jpg",
+    "joinLink": "https://www.meetup.com/qcscot/",
+    "joinType": "meetup",
+    "github": "https://github.com/qcscot",
+    "twitter": "https://twitter.com/qcscot"
+  },
+  {
     "name": "Yorkshire",
     "image": "city_yorkshire.jpg",
     "joinLink": "https://www.eventbrite.com/o/queer-code-yorkshire-15310069508",
     "joinType": "eventbrite",
     "twitter": "https://twitter.com/QueerCodeYorks"
-  },
-  {
-    "name": "Scotland",
-    "image": "city_scotland.jpg",
-    "joinLink": "https://www.meetup.com/qcscot/",
-    "joinType": "meetup",
-    "twitter": "https://twitter.com/qcscot"
   }
 ]
