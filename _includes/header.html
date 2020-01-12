@@ -46,13 +46,24 @@
 
       <div class="navbar-menu is-active" id="navMenu">
         <div class="navbar-end">
-          <a class="navbar-item" href="/">
+          <a class="navbar-item
+              {% if page.url == "/" %}is-active{% endif %}
+            " href="/">
             Home
           </a>
-          <a class="navbar-item" href="mission">
+          <a class="navbar-item
+              {% if page.url == "/events.html" %}is-active{% endif %}
+            " href="/events">
+           Events
+          </a>
+          <a class="navbar-item
+              {% if page.url == "/mission.html" %}is-active{% endif %}
+            " href="mission">
             Mission
           </a>
-          <a class="navbar-item" href="coc">
+          <a class="navbar-item
+              {% if page.url == "/coc.html" %}is-active{% endif %}
+            " href="coc">
             Code of Conduct
           </a>
           <span class="navbar-item navbar-item--slack">
