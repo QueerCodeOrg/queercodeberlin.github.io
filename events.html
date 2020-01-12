@@ -6,7 +6,8 @@ layout: default
 <div class="columns is-centered">
 <div class="column is-half">
 <h1 class="title is-1">Events</h1>
-{% for event in site.data.events %}
+{% for event_hash in site.data.events %}
+{% assign event = event_hash[1] %}
   <div class="box content">
     <p>
     <strong class="is-size-4">{{ event.name }}</strong><small>,
