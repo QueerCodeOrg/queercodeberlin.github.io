@@ -1,6 +1,7 @@
-.icon-label span {
-  display: inline-block;
-  vertical-align:middle;
-  margin-bottom: 0.5em;
-  margin-right: 0.5em;
+.event-list {
+  display: flex;
+}
+
+.event-list > div {
+  margin-right: 1em;
 }
