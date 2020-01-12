@@ -1,0 +1,11 @@
+{
+  "name": "ThoughtWorks London",
+  "lat": 51.51314926147461,
+  "lon": -0.13359500467777252,
+  "address": "76-78 Wardour St",
+  "city": "London",
+  "country": "United Kingdom",
+  "accessibility": "The building is wheelchair accessible, with lifts to the first floor, and a wheelchair accessible bathroom.",
+  "howToFind": "The building is next to the Phantom of the Opera. We're on the 5th floor.",
+  "codeOfConduct": "https://info.thoughtworks.com/code-of-conduct-en.html"
+}

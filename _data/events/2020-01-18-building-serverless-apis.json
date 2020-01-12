@@ -1,0 +1,9 @@
+{
+  "name": "Workshop: Building serverless APIs with AWS Lambda",
+  "start": "2020-01-18T12:00:00Z",
+  "end": "2020-01-18T16:00:00Z",
+  "location": "thoughtworks-soho",
+  "description": "🌈 We're back at ThoughtWorks for a Saturday workshop! 🌈 Zac Brown (he/him) is travelling all the way from Las Vegas to give us an intro to serverless. He'll walk us through using the Serverless framework to build a simple RESTful API backed by DynamoDB, and deploying it to an AWS Lambda function.",
+  "hostGroup": "London",
+  "signupUrl": "https://www.meetup.com/Queer-Code-London/events/267614661/"
+}
