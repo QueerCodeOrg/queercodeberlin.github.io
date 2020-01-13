@@ -3,34 +3,25 @@ title: Events
 layout: default
 ---
 
-<div class="columns is-centered">
-<div class="column is-half">
-<h1 class="title is-1">Events</h1>
-{% for event in site.data.events %}
-  <div class="box content">
-    <p>
-    <strong class="is-size-4">{{ event.name }}</strong><small>,
-      {%- if event.datetime %}
-        {{ event.datetime | date_to_long_string }}
-        {{ event.datetime | date: "%I:%M%P" }}
-      {%- else %}
-       date <abbr title="To be confirmed">TBC</abbr>
-      {%- endif %}, {{event.hostGroup}}
-    </small>
-      <br>
-      {% if event.description %}
-          {{ event.description }}
-          {% if event.url %}
-          <div class="is-pulled-right"><a href="{{event.url}}">Find out more</a></div>
-          {% endif %}
-      {% else %}
-        {% if event.url %}
-          <a href="{{event.url}}">Find out more</a>
-        {% endif %}
-      {% endif %}
-    </p>
-  </div>
+{% assign current_time = "now" | date: "%s" %}
+<h1 class="title is-2">Upcoming events</h1>
+<div class="event-list">
+{% for event_hash in site.data.events %}
+{% assign event = event_hash[1] %}
+{% assign end_time = event.end | date: "%s" %}
+{% if end_time > current_time %}
+{% include event-box.html event=event %}
+{% endif %}
 {% endfor %}
-<p></p>
 </div>
+
+<h1 class="title is-2">Past events</h1>
+<div class="event-list">
+{% for event_hash in site.data.events %}
+{% assign event = event_hash[1] %}
+{% assign end_time = event.end | date: "%s" %}
+{% if end_time <= current_time %}
+{% include event-box.html event=event %}
+{% endif %}
+{% endfor %}
 </div>

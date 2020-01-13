@@ -1,0 +1,9 @@
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-list > div {
+  margin-right: 1em;
+  min-width: 50ch;
+}
