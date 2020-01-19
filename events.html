@@ -10,9 +10,13 @@ layout: default
 {% assign event = event_hash[1] %}
 {% assign end_time = event.end | date: "%s" %}
 {% if end_time > current_time %}
-{% include event-box.html event=event %}
+  {% assign upcoming_events = true %}
+  {% include event-box.html event=event %}
 {% endif %}
 {% endfor %}
+{% if upcoming_events != true %}
+  <p>There are no upcoming events. Check back soon.</p>
+{% endif %}
 </div>
 
 <h1 class="title is-2">Past events</h1>
