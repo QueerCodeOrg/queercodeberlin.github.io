@@ -27,8 +27,8 @@ Please send an email to **qclnd-orga@googlegroups.com** with the following infor
 
 Thank you very much, we rely on volunteers to keep this going!
 
-Please join the #buddy-scheme channel on our [Slack](https://slackinvite-qcldn.herokuapp.com/). We're looking for people who:
-- commit to attending a meetup 
+Please join the #buddy-scheme channel on our [Slack](https://join.slack.com/t/queercodelondon/shared_invite/zt-1mhqtisqc-rHsMDwJgckUKpRUxqBgGZg). We're looking for people who:
+- commit to attending a meetup
 - are prepared to meet new members before the event starts and walk to the venue together
 - will try and help new members to feel welcome during the meetup
 
